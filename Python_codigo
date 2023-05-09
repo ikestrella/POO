@@ -1,0 +1,20 @@
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+    def caminar(self):
+        print("Caminando...")
+
+    def informacion(self):
+        print("Nombre",self.nombre,"\nEdad: ",self.edad)
+# Crear una instancia de la clase MiClase
+objeto = Persona("Iam",19)
+
+# Llamar a los métodos de la clase
+objeto.informacion()
+objeto.caminar()
+
+# Acceder a los atributos de la clase
+print("El valor de atributo1 es:", objeto.nombre)
+print("El valor de atributo2 es:", objeto.edad)
